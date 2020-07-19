@@ -1,0 +1,40 @@
+.Form {
+	background: #000000;
+	padding: 40px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.Form__group {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Form__group.Form--error {
+	border-bottom-color: #D10000;
+}
+
+.Form__label {
+	color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-family: "Montserrat";
+}
+
+.Form ::selection {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.Form__success {
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	background: #00d1b2;
+}
+
+.Form__error {
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	background: #D10000;
+}
