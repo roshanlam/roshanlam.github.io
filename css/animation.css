@@ -1,0 +1,40 @@
+/**
+ * ANIMATIONS
+ */
+.slide-fade-enter-active {
+	transition: all .8s ease;
+}
+
+.slide-fade-leave-active {
+	transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+	transform: translateX(-10px);
+	opacity: 0;
+}
+
+.spinning {
+	animation: spin 0.3s linear infinite;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
